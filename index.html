@@ -8,8 +8,29 @@
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
+	<div style="padding-left: 20px">
+		<br>
+		<h1>United States Postal (Zip) Code Finder</h1>
+
+		<br><br>
+
+		<form id="zipform" action="javascript:handleZip(zip)">
+			<label for="zip">Zip Code</label><br>
+			<input class="zip_input" type="text" id="zip" name="zip" pattern="[0-9]{5}" placeholder="#####">
+			<input class="submit" type="submit" value="Look it up!">
+		</form>
+
+		<br><br>
+
+		<h2 id="out_header"></h1>
+
+		<br><br>
+
+		<table id="places"></table>
+	</div>
 	
 	<script src="script.js"></script>
+
 </body>
 </html>
 

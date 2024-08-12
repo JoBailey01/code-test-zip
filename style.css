@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(180, 180, 200);
+}
+
+h1 {
+    font-size: 70px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+label {
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.zip_input {
+    font-size: 20px;
+    background-color: rgb(220,220,255);
+}
+
+.submit {
+    font-family: serif;
+    font-weight: 550;
+    background-color: rgb(180,180,220);
+    border: 1px solid rgb(0,0,0,0.7);
+    font-size: 20px;
+}
+
+/** I wanted to tint the state images blue-grey rather than solid black, but I ran out of time to find the right CSS filters. */
+img {
+    size: 150%;
+    filter: sepia(60%);
+    filter: hue-rotate(90deg);
+}
